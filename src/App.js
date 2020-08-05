@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import MyName from './MyName';
+import MyName2 from '../lecture/gugudanHook';
 
 class App extends Component{
   render(){
-    return(
-      <MyName name="리액트"/>
+    return(<div>
+      <MyName2 name="리액트"/>
+    </div>
+      
+      
     );
   }
 }
